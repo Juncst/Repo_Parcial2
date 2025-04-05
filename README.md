@@ -4,16 +4,20 @@ Este proyecto implementa una lista enlazada en Java, con varias operaciones como
 
 1. **Node**: Representa un nodo en la lista enlazada.
 2. **LinkedList**: Contiene los métodos para manipular la lista enlazada.
-3. **MenuLinkedList**: Proporciona una interfaz de usuario en la consola para interactuar con la lista enlazada.
+3. **MenuLinkedList**: Menu de interfaz de usuario en la consola para interactuar con la lista enlazada.
 
 ## Instrucciones para Ejecutar el Proyecto
 
-### 1. **Compilar el código**
+**Clonar repositorio, Compilar y ejecutar**
 
-   Abre una terminal en la raíz del proyecto (osea la carpeta \Segundo_Parcial) y ejecuta el siguiente comando para compilar el código:
+   Clona el repositorio desde GitHub ejecutando:
+   git clone https://github.com/Juncst/Repo_Parcial2.git
+
+   Abre una terminal en la raíz del proyecto y ejecuta el siguiente comando para compilar el código:
    javac -d bin src/*.java
-
-   Esto creara los .class correspondientes dentro de la carpeta \bin, luego desde la misma raíz del proyecto ejecuta el siguiente comando para ejecutar:
+   Esto creara los .class correspondientes dentro de la carpeta \bin 
+   
+   Desde la misma raíz del proyecto ejecuta el siguiente comando para ejecutar el proyecto:
    java -cp bin MenuLinkedList
 
 ## Propósito de Cada Clase y Método
